@@ -44,7 +44,6 @@ a {
   background-size: cover;
   text-align: center;
   color: #ffffff;
-  margin: 10px;
   padding: 10px;
   border-color: #9DA3A4;
   border-width: 10px;
@@ -119,4 +118,9 @@ a {
   left: 0;
   top: 0;
   border-radius: 10px;
+}
+
+.socialMedia {
+  padding: 5px;
+  margin: 5px;
 }
