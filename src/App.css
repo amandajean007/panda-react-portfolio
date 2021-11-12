@@ -1,0 +1,59 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-header {
+  background-color: #FFDBDA;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #ffffff;
+  font-weight: bold;
+}
+
+a {
+  color: white;
+  font-weight: bold;
+}
+
+.container {
+  background: url("../src/pexels-tim-mossholder-2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  margin: 10px;
+  padding: 10px;
+  border-color: #9DA3A4;
+  border-width: 10px;
+  border-style: solid;
+}
+
+.portrait {
+  height: 200px;
+  width: auto;
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 30px;
+  width: 50%;
+  text-align: center;
+  margin: auto;
+  margin-top: 20px;
+  background-color: rgba(0, 0, 0, 0.404);
+}
+
+.blackBackground {
+  background-color: rgba(0, 0, 0, 0.39);
+}
