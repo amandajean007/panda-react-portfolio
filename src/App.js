@@ -11,7 +11,7 @@ import resume from '../src/Amanda_McBee_Resume.PDF';
 function App() {
   const greeting = 'I am a Full-Stack Web Development student with the University of Denver. I will be receiving my certificate this December! I love the outdoors. You can find me hiking and taking photos, behind my computer or at the playground with my kids! In the winter, I am a big time ski bum, find me on the mountain. Bellow are some of my projects I have been working on the last year. Feel free to check them out and let me know if you have any comments!';
   const projectList = <div class="content">
-  <h1>Project Finder:</h1>
+  
   <div class="red">
       <button class="glow-on-hover" onclick="location.href='#1'">Password Generator</button>
   </div>
@@ -47,7 +47,7 @@ function App() {
 
 const projects =
 <div id="projectLinks" class="content">
-<h1>Projects:</h1>
+
 <div class="paragraph">
   <h3>Password Generator</h3>
   <a href="https://amandajean007.github.io/Password-Generator/" target="_blank" rel="noreferrer" id="1">
@@ -145,9 +145,11 @@ const projects =
         {greeting}
       </p>
       <p>
+      <h1>Project Finder:</h1>
         {projectList}
       </p>
       <p>
+      <h1>Projects:</h1>
         {projects}
       </p>
     </div>
