@@ -15,15 +15,16 @@ import weather from "../src/WEATHERTRACKER.PNG";
 import dindin from "../src/dindin.PNG";
 import techblog from "../src/techblog.png";
 import fitness from "../src/fitnesstracker.png";
-import notetaker from "../src/note-taker.png"
+import notetaker from "../src/note-taker.png";
+import favgame from "../src/favgame.png"
 
 
 function App() {
-  const greeting =
-    'I am a Full-Stack Web Development student with the University of Denver. I will be receiving my certificate this December!'
+  const greeting = 'I am a Full-Stack Web Development student with the University of Denver. I will be receiving my certificate this December!'
   const aboutme = 'I love the outdoors. You can find me hiking and taking photos, behind my computer or at the playground with my kids! In the winter, I am a big time ski bum, find me on the mountain.'
   const mycode = 'Bellow are some of my projects I have been working on the last year. Feel free to check them out and let me know if you have any comments!';
-  
+  const Game = 'https://play2048.co/'
+
   const projectList =
   <div class="content">
     <div class="red">
@@ -82,10 +83,14 @@ function App() {
           <img alt="github" src={github}/></a>
         </section>
       </div>
+      <h1>About me:</h1>
       <p className="paragraph">
         {greeting} <br/><br/>
         {aboutme} <br/><br/>
-        {mycode}
+        {mycode} <br/><br/>
+        A favorite game, try it out:
+        <a target="_blank" rel="noreferrer" href={Game} class="socialMedia">
+          <img alt="2048" src={favgame}/></a>
       </p>
       <p>
       <h1>Project Finder:</h1>
@@ -176,6 +181,9 @@ function App() {
         </div>
       </div>
       </p>
+      <footer>
+      Chase your stars fool, life is short ✨ 
+      </footer>
     </div>
   );
 }
