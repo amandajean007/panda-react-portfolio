@@ -9,12 +9,10 @@ The motivation behind this project was to create a student portfolio where I can
 2. [Installation](#installation)
 3. [Technologies](#technologies)
 4. [License](#license)
-5. [Contributions](#contributions)
-6. [Illustrations](#illustrations)
-7. [Tests](#tests)
-8. [Questions](#questions)
-9. [Status](#status)
-10. [Sources](#sources)
+5. [Illustrations](#illustrations)
+6. [Questions](#questions)
+7. [Status](#status)
+8. [Sources](#sources)
 
 ## Installation <a name="installation"></a>
 Add this link to your browser on any computer or smart device to run the website.
@@ -29,11 +27,10 @@ Add this link to your browser on any computer or smart device to run the website
 ## License <a name="license"></a>
 GNU General Public License v3.0
 
-## Contributions <a name="contributions"></a>
-You can make contributions to my project <button target=_blank href="https://github.com/amandajean007">here</button>! 
-
 ## Illustrations <a name="illustrations"></a>
-![..]
+![Screenshot 2021-11-13 204936](https://user-images.githubusercontent.com/85036414/141666791-9569b5db-48c5-4792-9fbf-97d112ddce56.png)
+![Screenshot 2021-11-13 204838](https://user-images.githubusercontent.com/85036414/141666794-5ec82589-7ba4-4e4a-87e1-01a70a1cb154.png)
+![Screenshot 2021-11-13 205007](https://user-images.githubusercontent.com/85036414/141666797-55cb9b00-4921-43c6-b25b-da3772a52f61.png)
 
 ## Questions <a name="questions"></a>
 If you have any questions please reach out to me via E-Mail: ahanes35@yahoo.com
