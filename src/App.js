@@ -1,5 +1,5 @@
 import './App.css';
-import React from 'react';
+import NavBar from './components/Navbar';
 import portrait from '../src/Amanda.png';
 import facebook from '../src/facebook.png';
 import instagram from '../src/instagram.png';
@@ -17,6 +17,7 @@ import techblog from "../src/techblog.png";
 import fitness from "../src/fitnesstracker.png";
 import notetaker from "../src/note-taker.png";
 import favgame from "../src/favgame.png";
+
 
 function App() {
   const greeting = 'I am a Full-Stack Web Development student with the University of Denver. I will be receiving my certificate this December!'
@@ -58,9 +59,9 @@ function App() {
           <img alt="2048" src={favgame}/></a>
       </p>
       <p>
-      <h1>Project Finder:</h1>
-        
-      <div class="content">
+      <h1>Projects:</h1>
+      
+      {/* <div class="content">
         <div class="red">
             <button class="glow-on-hover" onclick="location.href='#1'">Password Generator</button>
         </div>
@@ -91,11 +92,11 @@ function App() {
         <div class="red">
             <button class="glow-on-hover" onclick="location.href='#10'">Offline-Online Budget Tracker</button>
         </div>
-      </div>
+      </div> */}
 
       </p>
       <p>
-      <h1>Projects:</h1>
+  
       <div id="projectLinks" class="content">
 
         <div class="paragraph">
@@ -129,7 +130,6 @@ function App() {
           </a>
           <a href="https://github.com/amandajean007/AAA" target="_blank" rel="noreferrer">Check out the code!</a>
         </div>
-
         <div class="paragraph">
           <h3>Weather Tracker</h3>
           <a href="https://amandajean007.github.io/Weather-Tracker/ " target="_blank" rel="noreferrer" id="5">
@@ -169,7 +169,7 @@ function App() {
           </a>
           <a href="https://github.com/amandajean007/Note-Taker" target="_blank" rel="noreferrer">Check out the code!</a>
         </div>
-        
+
         <div class="paragraph">
           <h3>Offline-Online Budget Tracker</h3>
           <a href="https://cryptic-tundra-70283.herokuapp.com/" target="_blank" rel="noreferrer" id="10">
@@ -177,6 +177,7 @@ function App() {
           </a>
           <a href="https://github.com/amandajean007/Online-Offline-Budget-Tracker" target="_blank" rel="noreferrer">Check out the code!</a>
         </div>
+
       </div>
       </p>
       <footer>
