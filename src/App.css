@@ -6,16 +6,6 @@
   margin: 10px;
 }
 
-.content {
-  display: flex;
-  flex-wrap: wrap;
-  width: 80%;
-  margin: auto;
-  align-items: center;
-  text-align: center;
-  justify-content: center;
-}
-
 .App-header {
   background-color: #FFDBDA;
   min-height: 100vh;

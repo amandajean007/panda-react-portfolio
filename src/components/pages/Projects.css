@@ -1,0 +1,17 @@
+.content {
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    color: white;
+}
+
+.paragraph {
+    align-items: center;
+    justify-content: center;
+    vertical-align: center;
+    margin: 5%;
+}
