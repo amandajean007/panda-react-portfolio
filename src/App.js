@@ -1,44 +1,51 @@
 import './App.css';
-import NavBar from './components/Navbar';
-import portrait from '../src/Amanda.png';
-import facebook from '../src/facebook.png';
-import instagram from '../src/instagram.png';
-import linkedin from '../src/linkedin.png';
-import github from '../src/github.png';
-import resume from '../src/Amanda_McBee_Resume.PDF';
-import codequiz from '../src/CodeQuiz.PNG';
-import budget from '../src/budget.png';
-import password from '../src/Capture.passwordgenerator.PNG';
-import scheduler from '../src/work day screenshot.PNG';
-import foodGenerator from '../src/food generator.PNG';
-import weather from "../src/WEATHERTRACKER.PNG";
-import dindin from "../src/dindin.PNG";
-import techblog from "../src/techblog.png";
-import fitness from "../src/fitnesstracker.png";
-import notetaker from "../src/note-taker.png";
-import favgame from "../src/favgame.png";
+import PortfolioContainer from './components/portfolioContainer'
+// import NavBar from './components/Navbar';
+// import portrait from '../src/Amanda.png';
+// import facebook from '../src/facebook.png';
+// import instagram from '../src/instagram.png';
+// import linkedin from '../src/linkedin.png';
+// import github from '../src/github.png';
+// import resume from '../src/Amanda_McBee_Resume.PDF';
+// import codequiz from '../src/CodeQuiz.PNG';
+// import budget from '../src/budget.png';
+// import password from '../src/Capture.passwordgenerator.PNG';
+// import scheduler from '../src/work day screenshot.PNG';
+// import foodGenerator from '../src/food generator.PNG';
+// import weather from "../src/WEATHERTRACKER.PNG";
+// import dindin from "../src/dindin.PNG";
+// import techblog from "../src/techblog.png";
+// import fitness from "../src/fitnesstracker.png";
+// import notetaker from "../src/note-taker.png";
+// import favgame from "../src/favgame.png";
 
 
 function App() {
-  const greeting = 'I am a Full-Stack Web Development student with the University of Denver. I will be receiving my certificate this December!'
-  const aboutme = 'I love the outdoors. You can find me hiking and taking photos, behind my computer or at the playground with my kids! In the winter, I am a big time ski bum, find me on the mountain.'
-  const mycode = 'Bellow are some of my projects I have been working on the last year. Feel free to check them out and let me know if you have any comments!';
-  const Game = 'https://play2048.co/'
+  return <PortfolioContainer />;
+}
+
+export default App;
+
+
+  // const greeting = 'I am a Full-Stack Web Development student with the University of Denver. I will be receiving my certificate this December!'
+  // const aboutme = 'I love the outdoors. You can find me hiking and taking photos, behind my computer or at the playground with my kids! In the winter, I am a big time ski bum, find me on the mountain.'
+  // const mycode = 'Bellow are some of my projects I have been working on the last year. Feel free to check them out and let me know if you have any comments!';
+  // const Game = 'https://play2048.co/'
 
   // The return statement contains something called "JSX"
   // JSX is a syntax extension to Javascript that allows us to write HTML inside Javascript
   // Expressions in JSX should be placed in curly braces {}
-  return (
-    <div className="container">
-      <h1>Amanda McBee</h1>
-      <img className="portrait" src={portrait} alt="portrait" />
-      <div>
-        <h1>(303) 489-5490</h1>
-        <a target="_blank" rel="noreferrer" href="mailto:ahanes35@yahoo.com">
-          ahanes35@yahoo.com</a>
-        <p><a class="btn btn-warning" data-bs-toggle="offcanvas" target="_blank" rel="noreferrer" href={resume} role="button" aria-controls="offcanvasExample">
-          Resume</a></p>
-        <section>
+
+    // <div className="container">
+    //   <h1>Amanda McBee</h1>
+    //   <img className="portrait" src={portrait} alt="portrait" />
+    //   <div>
+    //     <h1>(303) 489-5490</h1>
+    //     <a target="_blank" rel="noreferrer" href="mailto:ahanes35@yahoo.com">
+    //       ahanes35@yahoo.com</a>
+    //     <p><a class="btn btn-warning" data-bs-toggle="offcanvas" target="_blank" rel="noreferrer" href={resume} role="button" aria-controls="offcanvasExample">
+    //       Resume</a></p>
+        {/* <section>
           <a target="_blank" rel="noreferrer" href="https://www.facebook.com/amanda.jean.7758" class="socialMedia">
           <img alt="facebook" src={facebook}/></a>
           <a target="_blank" rel="noreferrer" href="https://www.instagram.com/amandajean007/" class="socialMedia">
@@ -47,8 +54,8 @@ function App() {
           <img alt="linkedin" src={linkedin}/></a>
           <a target="_blank" rel="noreferrer" href="https://github.com/amandajean007/" class="socialMedia">
           <img alt="github" src={github}/></a>
-        </section>
-      </div>
+        </section> */}
+      {/* </div>
       <h1>About me:</h1>
       <p className="paragraph">
         {greeting} <br/><br/>
@@ -58,8 +65,8 @@ function App() {
         <a target="_blank" rel="noreferrer" href={Game} class="socialMedia">
           <img alt="2048" src={favgame}/></a>
       </p>
-      <p>
-      <h1>Portfolio:</h1>
+      
+      <h1>Portfolio:</h1> */}
       
       {/* <div class="content">
         <div class="red">
@@ -94,7 +101,7 @@ function App() {
         </div>
       </div> */}
 
-      </p>
+      {/* </p>
       <p>
   
       <div id="projectLinks" class="content">
@@ -179,12 +186,11 @@ function App() {
         </div>
 
       </div>
-      </p>
-      <footer>
-      Chase your stars fool, life is short ✨ 
-      </footer>
-    </div>
-  );
-}
+      </p> */}
+    //   <footer>
+    //   Chase your stars fool, life is short ✨ 
+    //   </footer>
+    // </div>
+  
 
-export default App;
+

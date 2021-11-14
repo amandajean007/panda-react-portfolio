@@ -1,30 +1,22 @@
 
 import React from 'react';
+import "./Navbar.css"
 
 function NavBar({ currentPage, handlePageChange}) {
     return (
         <div className="nav">
             <ul className="nav-bar">
                 <li className="nav-item">
-                    <a href="#1" onClick={() => handlePageChange('1')} className={currentPage === "1" ? 'nav-link active' : 'nav-link'}>
-                        <button class="glow-on-hover">
-                            Password Generator
-                        </button>
-                    </a>
+                    <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === "About" ? 'nav-link active' : 'nav-link'}>About Me</a>
                 </li>
                 <li className="nav-item">
-                    <a href="#2" onClick={() => handlePageChange('2')} className={currentPage === "2" ? 'nav-link active' : 'nav-link'}>
-                        <button class="glow-on-hover">
-                            Code Quiz
-                        </button>
-                    </a>
+                    <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === "Projects" ? 'nav-link active' : 'nav-link'}>Projects</a>
                 </li>
                 <li className="nav-item">
-                    <a href="#3" onClick={() => handlePageChange('3')} className={currentPage === "3" ? 'nav-link active' : 'nav-link'}>
-                        <button class="glow-on-hover">
-                            Work Day Scheduler
-                        </button>
-                    </a>
+                    <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>Contact Me</a>
+                </li>
+                <li className="nav-item">
+                    <a href="/../src/Assets/Amanda_McBee_Resume.PDF" target="_blank" rel="noreferrer">Resume</a>
                 </li>
             </ul>
         </div>

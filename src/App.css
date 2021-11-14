@@ -1,6 +1,5 @@
 .App {
   text-align: center;
-  
 }
 
 .red {
@@ -38,18 +37,7 @@ a {
   font-weight: bold;
 }
 
-.container {
-  background: url("../src/pexels-tim-mossholder-2.jpg");
-  background-attachment: fixed;
-  background-size: cover;
-  text-align: center;
-  color: #ffffff;
-  padding: 10px;
-  border-color: #9DA3A4;
-  border-width: 10px;
-  border-style: solid;
-  font-size: larger;
-}
+
 
 .portrait {
   height: auto;
@@ -118,9 +106,4 @@ a {
   left: 0;
   top: 0;
   border-radius: 10px;
-}
-
-.socialMedia {
-  padding: 5px;
-  margin: 5px;
 }

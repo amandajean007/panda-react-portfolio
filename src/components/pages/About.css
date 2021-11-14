@@ -1,0 +1,12 @@
+.container {
+    background: url("../../Assets/pexels-tim-mossholder-2.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    text-align: center;
+    color: #ffffff;
+    padding: 10px;
+    border-color: #9DA3A4;
+    border-width: 10px;
+    border-style: solid;
+    font-size: larger;
+  }
