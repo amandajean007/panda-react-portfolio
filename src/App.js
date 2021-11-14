@@ -59,7 +59,7 @@ function App() {
           <img alt="2048" src={favgame}/></a>
       </p>
       <p>
-      <h1>Projects:</h1>
+      <h1>Portfolio:</h1>
       
       {/* <div class="content">
         <div class="red">
