@@ -1,0 +1,5 @@
+.portfolio-container {
+    background-image: url(../Assets/pexels-tim-mossholder-2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+}

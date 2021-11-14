@@ -12,24 +12,26 @@ export default function About() {
   
   return (
     <div className="container">
-    <h1>Amanda McBee</h1>
-    <img className="portrait" src={portrait} alt="portrait" />
+    <h1>Amanda McBee</h1> <br />
     <div>
-      <h1>(303) 489-5490</h1>
+      <h3>(303) 489-5490</h3> <br />
       <a target="_blank" rel="noreferrer" href="mailto:ahanes35@yahoo.com">
         ahanes35@yahoo.com</a>
       <p><a class="btn btn-warning" data-bs-toggle="offcanvas" target="_blank" rel="noreferrer" href={resume} role="button" aria-controls="offcanvasExample">
         Resume</a></p>
         </div>
-      <h1>About me:</h1>
-      <p className="paragraph">
-        {greeting} <br/><br/>
-        {aboutme} <br/><br/>
-        {mycode} <br/><br/>
-        One of my favorite games. Try it out:
-        <a target="_blank" rel="noreferrer" href={Game} class="socialMedia">
-          <img alt="2048" src={favgame}/></a>
-      </p>
+    <img className="portrait" src={portrait} alt="portrait" /> <br />
+      <div className="aboutme">
+        <h2>About me:</h2>
+        <p className="paragraph">
+          {greeting} <br/><br/>
+          {aboutme} <br/><br/>
+          {mycode} <br/><br/>
+          One of my favorite games. Try it out:
+          <a target="_blank" rel="noreferrer" href={Game} class="socialMedia">
+            <img alt="2048" src={favgame}/></a>
+        </p>
+      </div>
     </div>
   );
 }

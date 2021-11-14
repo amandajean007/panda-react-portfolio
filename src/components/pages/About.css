@@ -9,4 +9,8 @@
     border-width: 10px;
     border-style: solid;
     font-size: larger;
-  }
+}
+
+.aboutme {
+  background-color: rgba(0, 0, 0, 0.5);
+}
