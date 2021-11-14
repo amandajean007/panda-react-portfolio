@@ -10,17 +10,14 @@ function Contact() {
     <div className="contact">
       <h2>Contact Me:</h2>
       <div className="card">
-        <div className="card-content">
-            <p></p>
-        </div>
         <form className="contact-form">
           <label >
             Name:
-            <input type='text' className="text-box" name="name" value={name} onChange={(e) => setName(e.target.value)} required/>
+            <input type='text' name="name" value={name} onChange={(e) => setName(e.target.value)} required/>
           </label>
           <label >
             Email:
-            <input type='email' className="text-box" name="email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
+            <input type='email' name="email" value={email} onChange={(e) => setEmail(e.target.value)} required/>
           </label>
           <label>
             Message:
