@@ -16,6 +16,7 @@ The motivation behind this project was to create a student portfolio where I can
 
 ## Installation <a name="installation"></a>
 Add this link to your browser on any computer or smart device to run the website.
+https://panda-react-portfolio.herokuapp.com/
 
 ## Technologies <a name="technologies"></a>
    - HTML
