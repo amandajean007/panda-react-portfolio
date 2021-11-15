@@ -1,19 +1,33 @@
 .container {
-    background: url("../../Assets/pexels-tim-mossholder-2.jpg");
-    background-attachment: fixed;
-    background-size: cover;
-    text-align: center;
-    color: #ffffff;
-    padding: 10px;
-    font-size: larger;
+  background: url("../../Assets/pexels-tim-mossholder-2.jpg");
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+  color: #ffffff;
+  padding: 10px;
+  font-size: larger;
 }
 
 .aboutme {
-  background-color: rgba(0, 0, 0, 0.5);
-  margin: 1em;
-  padding: 1px;
+background-color: rgba(0, 0, 0, 0.5);
+border-style: ridge;
+border-width: 5px;
+border-color: rgba(255, 255, 255, 0.493);
+margin: 5px;
+padding: 5px;
+width: 75%;
+margin-left: 10%;
+margin-right: 10%;
 }
 
 h1 {
-  padding: 25px;
+padding-top: 25px;
 }
+
+.portrait {
+border-style: ridge;
+border-width: 5px;
+border-color: rgba(255, 255, 255, 0.493);
+margin: 5px;
+}
+

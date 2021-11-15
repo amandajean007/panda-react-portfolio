@@ -21,7 +21,7 @@ function Contact() {
           </label>
           <label>
             Message:
-            <textarea name="message" cols="100" rows="10" value={message} onChange={(e) => setMessage(e.target.value)} required/>
+            <textarea name="message" cols="100%" rows="100%" value={message} onChange={(e) => setMessage(e.target.value)} required/>
           </label>
           <input type="submit" name="submit"value='Submit' className="submit" />
         </form>
