@@ -1,5 +1,6 @@
 
 import React from 'react';
+import resume from '../Assets/Amanda_McBee_Resume.PDF';
 import "./Navbar.css"
 
 function NavBar({ currentPage, handlePageChange}) {
@@ -7,16 +8,24 @@ function NavBar({ currentPage, handlePageChange}) {
         <div className="nav">
             <ul className="nav-bar">
                 <li className="nav-item">
-                    <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === "About" ? 'nav-link active' : 'nav-link'}>About Me</a>
+                    <a href="#about" onClick={() => handlePageChange('About')} className={currentPage === "About" ? 'nav-link active' : 'nav-link'}>
+                        About Me
+                    </a>
                 </li>
                 <li className="nav-item">
-                    <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === "Projects" ? 'nav-link active' : 'nav-link'}>Projects</a>
+                    <a href="#projects" onClick={() => handlePageChange('Projects')} className={currentPage === "Projects" ? 'nav-link active' : 'nav-link'}>
+                        Projects
+                    </a>
                 </li>
                 <li className="nav-item">
-                    <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>Contact Me</a>
+                    <a href="#contact" onClick={() => handlePageChange('Contact')} className={currentPage === "Contact" ? 'nav-link active' : 'nav-link'}>
+                        Contact Me
+                    </a>
                 </li>
                 <li className="nav-item">
-                    <a href="/../src/Assets/Amanda_McBee_Resume.PDF" target="_blank" rel="noreferrer">Resume</a>
+                    <a data-bs-toggle="offcanvas" target="_blank" rel="noreferrer" href={resume} role="button" aria-controls="offcanvasExample">
+                        Resume
+                    </a>
                 </li>
             </ul>
         </div>

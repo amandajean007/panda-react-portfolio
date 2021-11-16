@@ -29,7 +29,7 @@ export default function Projects() {
     <div className="content">
 
       <div class="paragraph">
-        <h3>Password Generator</h3>
+        <p>Password Generator</p>
         <a href="https://amandajean007.github.io/Password-Generator/" target="_blank" rel="noreferrer" id="1">
           <img alt="Password Generator" src={password} width="80%" height="auto"></img>
         </a><br />
@@ -37,7 +37,7 @@ export default function Projects() {
       </div>
 
       <div class="paragraph">
-        <h3>Code Quiz</h3>
+        <p>Code Quiz</p>
         <a href="https://amandajean007.github.io/Code-Quiz/" target="_blank" rel="noreferrer" id="2">
           <img class="photo" alt="Code Quiz" src={codequiz} width="80%" height="auto"></img>
         </a><br />
@@ -45,7 +45,7 @@ export default function Projects() {
       </div>
 
       <div class="paragraph">
-        <h3>Work Day Scheduler</h3>
+        <p>Work Day Scheduler</p>
         <a href="https://amandajean007.github.io/Work-Day-Scheduler/" target="_blank" rel="noreferrer" id="3">
           <img class="photo" alt="Work Day Scheduler" src={scheduler} width="80%" height="auto"></img>
         </a><br />
@@ -53,7 +53,7 @@ export default function Projects() {
       </div>
 
       <div class="paragraph">
-        <h3>Recipe Generator</h3>
+        <p>Recipe Generator</p>
         <a href="https://amandajean007.github.io/AAA/" target="_blank" rel="noreferrer" id="4">
           <img class="photo" alt="recipe generator" src={foodGenerator} width="80%" height="auto"></img>
         </a><br />
@@ -61,7 +61,7 @@ export default function Projects() {
       </div>
 
       <div class="paragraph">
-        <h3>Weather Tracker</h3>
+        <p>Weather Tracker</p>
         <a href="https://amandajean007.github.io/Weather-Tracker/ " target="_blank" rel="noreferrer" id="5">
           <img class="photo" alt="Weather Tracker" src={weather} width="80%" height="auto"></img>
         </a><br />
@@ -69,7 +69,7 @@ export default function Projects() {
       </div>
 
       <div class="paragraph">
-        <h3>DinDin - Recipe Warehouse</h3>
+        <p>DinDin - Recipe Warehouse</p>
         <a href="https://secure-crag-98297.herokuapp.com/login" target="_blank" rel="noreferrer" id="6">
           <img class="photo" alt="DinDin" src={dindin} width="80%" height="auto"></img>
         </a><br />
@@ -77,15 +77,15 @@ export default function Projects() {
       </div>
 
       <div class="paragraph">
-        <h3>Technology Blog</h3>
-        <a href="https://whispering-brushlands-45251.herokuapp.com/" target="_blank" rel="noreferrer" id="7">
+        <p>Technology Blog</p>
+        <a href="https://panda-tech-blog.herokuapp.com/" target="_blank" rel="noreferrer" id="7">
           <img class="photo" alt="TechBlog" src={techblog} width="80%" height="auto"></img>
         </a><br />
         <a href="https://github.com/amandajean007/Tech-Blog" target="_blank" rel="noreferrer">Check out the code!</a>
       </div>
 
       <div class="paragraph">
-        <h3>Fitness Tracker</h3>
+        <p>Fitness Tracker</p>
         <a href="https://safe-spire-01308.herokuapp.com/" target="_blank" rel="noreferrer" id="8">
           <img class="photo" alt="FitnessTracker" src={fitness} width="80%" height="auto"></img>
         </a><br />
@@ -93,7 +93,7 @@ export default function Projects() {
       </div>
 
       <div class="paragraph">
-        <h3>Note Taker</h3>
+        <p>Note Taker</p>
         <a href="https://panda-note-taker.herokuapp.com/" target="_blank" rel="noreferrer" id="9">
           <img class="photo" alt="NoteTaker" src={notetaker} width="80%" height="auto"></img>
         </a><br />
@@ -101,7 +101,7 @@ export default function Projects() {
       </div>
 
       <div class="paragraph">
-        <h3>Offline-Online Budget Tracker</h3>
+        <p>Offline-Online Budget Tracker</p>
         <a href="https://cryptic-tundra-70283.herokuapp.com/" target="_blank" rel="noreferrer" id="10">
           <img class="photo" alt="OfflineOnlineBudgetTracker" src={budget} width="80%" height="auto"></img>
         </a><br />
