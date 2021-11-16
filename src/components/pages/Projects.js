@@ -62,7 +62,7 @@ export default function Projects() {
 
       <div class="paragraph">
         <p>Weather Tracker</p>
-        <a href="https://amandajean007.github.io/Weather-Tracker/ " target="_blank" rel="noreferrer" id="5">
+        <a href="https://amandajean007.github.io/Weather-Tracker/" target="_blank" rel="noreferrer" id="5">
           <img class="photo" alt="Weather Tracker" src={weather} width="80%" height="auto"></img>
         </a><br />
         <a href="https://github.com/amandajean007/Weather-Tracker" target="_blank" rel="noreferrer">Check out the code!</a>
