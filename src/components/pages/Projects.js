@@ -5,7 +5,7 @@ import budget from '../../Assets/budget.png';
 import password from '../../Assets/Capture.passwordgenerator.PNG';
 import scheduler from '../../Assets/work day screenshot.PNG';
 import foodGenerator from '../../Assets/food generator.PNG';
-import weather from "../../Assets/WEATHERTRACKER.PNG";
+import weather from "../../Assets/weatherapp.png";
 import dindin from "../../Assets/dindin.PNG";
 import techblog from "../../Assets/techblog.png";
 import fitness from "../../Assets/fitnesstracker.png";
