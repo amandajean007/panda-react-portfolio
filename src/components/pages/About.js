@@ -1,6 +1,5 @@
 import React from 'react';
 import favgame from "../../Assets/favgame.png";
-import resume from '../../Assets/Amanda_McBee_Resume.PDF';
 import portrait from '../../Assets/Amanda.png';
 import "./About.css"
 
@@ -25,7 +24,7 @@ export default function About() {
     <img className="portrait" src={portrait} alt="portrait" /> <br />
       <div className="aboutme">
         <h2>About me:</h2>
-          <p className="paragraph">
+          <p>
             {greeting} <br/><br/>
             {aboutme} <br/><br/>
             {mycode} <br/><br/>
