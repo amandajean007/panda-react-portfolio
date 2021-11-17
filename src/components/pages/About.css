@@ -1,6 +1,7 @@
 .container {
-  background: url("../../Assets/pexels-tim-mossholder-2.jpg");
+  background: url("../../Assets/colorstar.jpg");
   background-attachment: fixed;
+  background-position: center center;
   background-size: cover;
   text-align: center;
   color: #ffffff;
@@ -29,5 +30,6 @@ border-style: ridge;
 border-width: 5px;
 border-color: rgba(255, 255, 255, 0.493);
 margin: 5px;
+width: 25%;
 }
 

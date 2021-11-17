@@ -1,6 +1,5 @@
 import React from 'react';
 import favgame from "../../Assets/favgame.png";
-import resume from '../../Assets/Amanda_McBee_Resume.PDF';
 import portrait from '../../Assets/Amanda.png';
 import "./About.css"
 

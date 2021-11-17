@@ -1,5 +1,6 @@
 .portfolio-container {
-    background-image: url(../Assets/pexels-tim-mossholder-2.jpg);
+    background-image: url(../Assets/colorstar.jpg);
     background-attachment: fixed;
     background-size: cover;
+    background-position: center center;
 }
