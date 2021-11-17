@@ -5,7 +5,7 @@ import budget from '../../Assets/budget.png';
 import password from '../../Assets/Capture.passwordgenerator.PNG';
 import scheduler from '../../Assets/work day screenshot.PNG';
 import foodGenerator from '../../Assets/food generator.PNG';
-import weather from "../../Assets/WEATHERTRACKER.PNG";
+import weather from "../../Assets/weatherapp.png";
 import dindin from "../../Assets/dindin.PNG";
 import techblog from "../../Assets/techblog.png";
 import fitness from "../../Assets/fitnesstracker.png";
@@ -62,7 +62,7 @@ export default function Projects() {
 
       <div class="paragraph">
         <p>Weather Tracker</p>
-        <a href="https://amandajean007.github.io/Weather-Tracker/ " target="_blank" rel="noreferrer" id="5">
+        <a href="https://amandajean007.github.io/Weather-Tracker/" target="_blank" rel="noreferrer" id="5">
           <img class="photo" alt="Weather Tracker" src={weather} width="80%" height="auto"></img>
         </a><br />
         <a href="https://github.com/amandajean007/Weather-Tracker" target="_blank" rel="noreferrer">Check out the code!</a>
@@ -78,7 +78,7 @@ export default function Projects() {
 
       <div class="paragraph">
         <p>Technology Blog</p>
-        <a href="https://whispering-brushlands-45251.herokuapp.com/" target="_blank" rel="noreferrer" id="7">
+        <a href="https://panda-tech-blog.herokuapp.com/" target="_blank" rel="noreferrer" id="7">
           <img class="photo" alt="TechBlog" src={techblog} width="80%" height="auto"></img>
         </a><br />
         <a href="https://github.com/amandajean007/Tech-Blog" target="_blank" rel="noreferrer">Check out the code!</a>

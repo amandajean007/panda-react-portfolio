@@ -10,19 +10,19 @@
 }
 
 .aboutme {
-background-color: rgba(0, 0, 0, 0.5);
-border-style: ridge;
-border-width: 5px;
-border-color: rgba(255, 255, 255, 0.493);
-margin: 5px;
-padding: 5px;
-width: 75%;
-margin-left: 10%;
-margin-right: 10%;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-style: ridge;
+  border-width: 5px;
+  border-color: rgba(255, 255, 255, 0.493);
+  margin: 5px;
+  padding: 5px;
+  width: 75%;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 h1 {
-padding-top: 25px;
+  padding-top: 25px;
 }
 
 .portrait {
