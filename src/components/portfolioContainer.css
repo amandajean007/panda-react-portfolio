@@ -1,5 +1,6 @@
 .portfolio-container {
-    background-image: url(../Assets/color.jpg);
+    background-image: url(../Assets/background.jpg);
     background-attachment: fixed;
     background-position: center center;
+    background-size: cover;
 }
