@@ -24,12 +24,12 @@ export default function About() {
     <img className="portrait" src={portrait} alt="portrait" /> <br />
       <div className="aboutme">
         <h2>About me:</h2>
-          <p>
+          <p className="me">
             {greeting} <br/><br/>
             {aboutme} <br/><br/>
             {mycode} <br/><br/>
             One of my favorite games. Try it out:
-            <a target="_blank" rel="noreferrer" href={Game} class="socialMedia">
+            <a target="_blank" rel="noreferrer" href={Game} className="socialMedia">
               <img alt="2048" src={favgame}/></a>
           </p>
       </div>

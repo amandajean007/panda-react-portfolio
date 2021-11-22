@@ -19,6 +19,7 @@
   width: 75%;
   margin-left: 10%;
   margin-right: 10%;
+  font-size: 16px;
 }
 
 h1 {
@@ -33,3 +34,6 @@ margin: 5px;
 width: 25%;
 }
 
+.me {
+  font-size: 16px;
+}
