@@ -1,6 +1,6 @@
 import React from 'react';
 import './Projects.css';
-import codequiz from '../../Assets/CodeQuiz.PNG';
+import codequiz from '../../Assets/Screenshot 2021-12-13 145055.jpg';
 import budget from '../../Assets/budget.png';
 import password from '../../Assets/Capture.passwordgenerator.PNG';
 import scheduler from '../../Assets/work day screenshot.PNG';
