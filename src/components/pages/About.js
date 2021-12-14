@@ -1,12 +1,11 @@
 import React from 'react';
 import favgame from "../../Assets/favgame.png";
-import portrait from '../../Assets/Amanda.png';
+import portrait from '../../Assets/salamander.png';
 import "./About.css"
 
 export default function About() {
-  const greeting = 'I am a Full-Stack Web Development student with the University of Denver. I will be receiving my certificate this December!'
-  const aboutme = 'I love the outdoors. You can find me hiking and taking photos, behind my computer or at the playground with my kids! In the winter, I am a big time ski bum, find me on the mountain.'
-  const mycode = 'Check out some of my projects I have been working on the past year. Leave me a comment!';
+  const greeting = 'I am a Full-Stack Web Development student with the University of Denver. I will be receiving my certificate this December! I love the outdoors. You can find me hiking and taking photos, behind my computer or at the playground with my kids! In the winter, I am a big time ski bum, find me on the mountain. Check out some of my projects I have been working on the past year. Leave me a comment!'
+
   const Game = 'https://play2048.co/'
   
   return (
@@ -21,13 +20,11 @@ export default function About() {
       <br />
       <br />
     </div>
-    <img className="portrait" src={portrait} alt="portrait" /> <br />
+    <img className="portrait" height="300px" src={portrait} alt="portrait" /> <br />
       <div className="aboutme">
         <h2>About me:</h2>
           <p className="me">
             {greeting} <br/><br/>
-            {aboutme} <br/><br/>
-            {mycode} <br/><br/>
             One of my favorite games. Try it out:
             <a target="_blank" rel="noreferrer" href={Game} className="socialMedia">
               <img alt="2048" src={favgame}/></a>
