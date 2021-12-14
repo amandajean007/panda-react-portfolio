@@ -15,7 +15,7 @@ export default function About() {
       <a>(303) 489-5490</a>
       <br />
       <a target="_blank" rel="noreferrer" href="mailto:ahanes35@yahoo.com">
-        ahanes35@yahoo.com
+        amandajeanmcbee@gmail.com
       </a>
       <br />
       <br />
