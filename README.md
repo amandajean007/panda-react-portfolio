@@ -29,9 +29,8 @@ https://panda-react-portfolio.herokuapp.com/
 GNU General Public License v3.0
 
 ## Illustrations <a name="illustrations"></a>
-![Screenshot 2021-11-13 204936](https://user-images.githubusercontent.com/85036414/141666791-9569b5db-48c5-4792-9fbf-97d112ddce56.png)
-![Screenshot 2021-11-13 204838](https://user-images.githubusercontent.com/85036414/141666794-5ec82589-7ba4-4e4a-87e1-01a70a1cb154.png)
-![Screenshot 2021-11-13 205007](https://user-images.githubusercontent.com/85036414/141666797-55cb9b00-4921-43c6-b25b-da3772a52f61.png)
+![Screenshot 2021-12-14 091125](https://user-images.githubusercontent.com/85036414/146035969-6ebc4d05-5fa6-48c4-820d-6c07adf1a646.jpg)
+
 
 ## Questions <a name="questions"></a>
 If you have any questions please reach out to me via E-Mail: ahanes35@yahoo.com
