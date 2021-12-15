@@ -1,6 +1,6 @@
 
 import React from 'react';
-import resume from '../Assets/resume2021.png';
+import resume from '../Assets/Amanda_McBee_Resume (1).pdf';
 import "./Navbar.css"
 
 function NavBar({ currentPage, handlePageChange}) {

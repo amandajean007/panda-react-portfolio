@@ -2,7 +2,7 @@ import React from 'react';
 import './Projects.css';
 import codequiz from '../../Assets/Screenshot 2021-12-13 145055.jpg';
 import budget from '../../Assets/budget.png';
-import password from '../../Assets/Capture.passwordgenerator.PNG';
+// import password from '../../Assets/Capture.passwordgenerator.PNG';
 import scheduler from '../../Assets/work day screenshot.PNG';
 import foodGenerator from '../../Assets/food generator.PNG';
 import weather from "../../Assets/screenshot.jpg";
@@ -27,14 +27,14 @@ export default function Projects() {
 
   return (
     <div className="content">
-
+{/* 
       <div className="paragraph">
         <p className="projects">Password Generator</p>
         <a href="https://amandajean007.github.io/Password-Generator/" target="_blank" rel="noreferrer" id="1">
           <img alt="Password Generator" src={password} width="80%" height="auto"></img>
         </a><br />
         <a href="https://github.com/amandajean007/Password-Generator" target="_blank" rel="noreferrer">Check out the code!</a>
-      </div>
+      </div> */}
 
       <div className="paragraph">
         <p className="projects">Code Quiz</p>
