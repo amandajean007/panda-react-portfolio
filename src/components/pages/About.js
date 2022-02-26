@@ -12,7 +12,7 @@ export default function About() {
     <div className="container">
     <h1>Amanda McBee</h1> <br />
     <div>
-      <a>(303) 489-5490</a>
+      <>(303) 489-5490</>
       <br />
       <a target="_blank" rel="noreferrer" href="mailto:ahanes35@yahoo.com">
         amandajeanmcbee@gmail.com
