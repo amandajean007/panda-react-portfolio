@@ -4,13 +4,13 @@
   background-position: center center;
   background-size: cover;
   text-align: center;
-  color: #ffffff;
+  color: #000000;
   padding: 10px;
   font-size: larger;
 }
 
 .aboutme {
-  background-color: rgba(0, 0, 0, 0.5);
+  background-color: rgba(187, 187, 187, 0.5);
   border-style: ridge;
   border-width: 5px;
   border-color: rgba(255, 255, 255, 0.493);
@@ -30,8 +30,16 @@ h1 {
   padding-top: 25px;
 }
 
+h2 {
+  color: black;
+}
+
 .icon {
   width: 4%;
+}
+
+.me {
+  font-size: 16px;
 }
 
 .portrait {
@@ -42,6 +50,6 @@ margin: 5px;
 width: 25%;
 }
 
-.me {
-  font-size: 16px;
+.title {
+  font-size: 2em;
 }
