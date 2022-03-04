@@ -14,7 +14,7 @@ export default function About() {
     <div>
       <p>(303) 489-5490</p>
       <br />
-      <a target="_blank" rel="noreferrer" href="mailto:ahanes35@yahoo.com">
+      <a target="_blank" rel="noreferrer" href="mailto:amandajeanmcbee@gmail.com">
         amandajeanmcbee@gmail.com
       </a>
       <br />
