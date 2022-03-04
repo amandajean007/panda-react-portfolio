@@ -1,6 +1,6 @@
 import React from 'react';
 import favgame from "../../Assets/favgame.png";
-import portrait from '../../Assets/salamander.png';
+import portrait from '../../Assets/Amanda.png';
 import "./About.css"
 
 export default function About() {
